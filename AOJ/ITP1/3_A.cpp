@@ -1,0 +1,16 @@
+#include<iostream>
+#include<vector>
+#include<algorithm>
+
+using namespace std;
+
+int main(void)
+{
+
+    for(int i=0;i<1000;i++)
+    {
+        cout << "Hello World" << endl;
+    }
+
+    return 0;
+}
