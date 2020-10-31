@@ -1,0 +1,7 @@
+# enviroment file
+.vscode/
+# input output file
+input.txt
+problem.exe
+# header file
+bits/
