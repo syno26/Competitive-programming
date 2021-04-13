@@ -9,13 +9,15 @@
 #include <stack>
 #include <string>
 
-#define MPI 3.14159265358979323846
-
 using namespace std;
 
 int main(void)
 {
-    printf("Hello world\n");
+    double x1, y1, x2, y2, ans;
+    cin >> x1 >> y1 >> x2 >> y2;
+
+    ans = sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2));
+    cout << fixed << setprecision(8) << ans << endl;
 
     return 0;
 }

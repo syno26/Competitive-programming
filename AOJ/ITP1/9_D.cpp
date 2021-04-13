@@ -35,7 +35,7 @@ int main(void)
         {
             cin >> a >> b;
             string t;
-            for(int x=0;x<b-a-1;++x)
+            for(int x=0;x<ceil(b-a)/2;++x)
             {
                 t[0]=str[a+x];
                 str[a+x]=str[b-x];
@@ -45,7 +45,7 @@ int main(void)
         else if(inst=="replace")
         {
             cin >> a >> b >> p;
-            str.replace(a,b-a-1,p);
+            str.replace(a,b-a+1,p);
         }
     }
 
