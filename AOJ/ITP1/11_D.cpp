@@ -75,7 +75,8 @@ bool same(Dice a, Dice b)
     return true;
 }
 
-bool check(Dice dice1, Dice dice2, int top, int front){
+bool check(Dice dice1, Dice dice2, int top, int front)
+{
     dice2.roll('S');
 
     int count = 0;
@@ -121,7 +122,8 @@ int main(void)
             int count = 0;
             while (count < 7)
             {
-                if(dice[j].label[0] == top && check(dice[i], dice[j], top, front)){
+                if (dice[j].label[0] == top && check(dice[i], dice[j], top, front))
+                {
                     flag = true;
                 }
                 if (count < 4)
